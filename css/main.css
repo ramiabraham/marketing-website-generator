@@ -141,35 +141,41 @@ a img {
 	color: #fff;
 	}
 	
-.cta_left {
+.cta_left, .cta_right {
 	float: left;
 	width: 360px;
 	margin-top: 20px;
 	}
 	
-.cta_left ul {
+.cta_left ul, .cta_right ul {
 	margin:0;
 	padding: 0;
 	list-style:none;
-	list-style-image:url(../img/check.png);
 	list-style-position: inside;
 	line-height: 36px;
 	margin-left: 20px;
 	}
 	
-.cta_left li {
+.cta_left li, .cta_right li {
 	padding: 0 0 0 0;
 	margin:0;
 	font-family:MyriadProRegular, Helvetica, sans-serif;
 	color: #757887;
 	font-size:18px;
 	font-style:italic;
+	text-transform: uppercase;
 	}
 	
+.cta_left li:before, .cta_right li:before {
+	content:  "\2713 ";
+	font-size: 2em;
+	color: #2d78d2;
+}
+
 .cta_right {
 	float: left;
 	width: 240px;
-	text-align: right;
+	text-align: left;
 	}
 	
 ul {
@@ -636,4 +642,91 @@ background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
 }
 
-.cta_left ul li {text-transform: uppercase;}
+.cta_left ul li, .cta_left ul li {text-transform: uppercase;}
+
+/*product box*/
+
+.product_box {
+	transform: perspective( 600px ) rotateY( -15deg );
+		-webkit-transform: perspective( 600px ) rotateY( -15deg );
+  display: inline-block;
+  width: 100%;
+  height: 360px;
+  padding: 10px;
+  margin: 10px;
+  background: #6db3f2; /* Old browsers */
+background: -moz-linear-gradient(top,  #6db3f2 0%, #54a3ee 50%, #3690f0 63%, #1e69de 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6db3f2), color-stop(50%,#54a3ee), color-stop(63%,#3690f0), color-stop(100%,#1e69de)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #6db3f2 0%,#54a3ee 50%,#3690f0 63%,#1e69de 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #6db3f2 0%,#54a3ee 50%,#3690f0 63%,#1e69de 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #6db3f2 0%,#54a3ee 50%,#3690f0 63%,#1e69de 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #6db3f2 0%,#54a3ee 50%,#3690f0 63%,#1e69de 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=0 ); /* IE6-9 */
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  box-shadow: 
+    1px 1px #1e5799,
+    2px 2px #1e5799,
+    3px 3px #1e5799,
+    4px 4px #1e5799,
+    5px 5px #1e5799,
+    6px 6px #1e5799,
+    7px 7px #1e5799,
+    8px 8px #1e5799,
+    9px 9px #1e5799,
+    10px 10px #1e5799,
+    11px 11px #1e5799,
+    12px 12px #1e5799,
+    13px 13px #1e5799,
+    14px 14px #1e5799,
+    15px 15px #1e5799,
+    16px 16px #1e5799,
+    17px 17px #1e5799,
+    18px 18px #1e5799,
+    19px 19px #1e5799,
+    20px 20px #1e5799,
+    21px 21px #1e5799,
+    22px 22px #1e5799,
+    23px 23px #1e5799,
+    24px 24px #1e5799,
+    25px 25px #1e5799,
+    26px 26px #1e5799,
+    27px 27px #1e5799,
+    28px 28px #1e5799,
+    29px 29px #1e5799,
+    30px 30px #1e5799,
+    31px 31px #1e5799,
+    32px 32px #1e5799,
+    33px 33px #1e5799,
+    34px 34px #1e5799,
+    35px 35px #1e5799,
+    36px 36px #1e5799;
+}
+
+.product_box h2 {font-size: 24px; border: 2px solid white;}
+
+.product_box h1 {border-bottom: 1px dotted white;}
+
+.product_box h1, .product_box h2, .product_box p, .edition {text-align: center;
+	text-transform: uppercase;
+}
+.product_box p {background: #FAFAFA;
+	line-height: 1em;
+	vertical-align: middle;
+	margin: auto auto 12px auto;
+	padding-bottom: 0;
+	height: 12px;
+	width: 40%;
+	font-size: 09px;
+}
+
+.product_box .dollar_sign {text-shadow: 0 0 24px #FFF, 0 0 4px #FFF, 1px 1px 2px #333;
+	font-size: 130px;
+	text-align: center;
+	margin: auto auto 12px auto;
+	width: 130px;
+	background: #464646;
+	border-radius: 50%;
+	
+}

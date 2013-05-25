@@ -178,17 +178,14 @@
             <!-- start of cta right container -->
           <div class="cta_right">
                 
-            <p><a href="http://www.fart-sounds.net/fart_sound_board.htm" title="Rectal Control - Give us your money" class='fade'><img src="img/buy_now_CTA.jpg" width="220" height="178" alt="Buy Now" /></a></p> 
-            <script>
-$('.cta_right a').click(function(){
-    alert('YOU WILL NOW BE TAKEN TO THE SECURE INTERNET ELECTRONIC PAYMENT AREA TO DOWNLOAD A PDF AND THEN PRINT OUT THE PDF AND THEN SEND IT TO THIS ADDRESS ALONG WITH CASH PAYMENT: 338 ROAD. CLICK OK TO PROCEED.');
-});
-
-$('.quote_area a').click(function(){
-    alert('YOU WILL NOW BE TAKEN TO THE SECURE INTERNET ELECTRONIC PAYMENT AREA TO DOWNLOAD A PDF AND THEN PRINT OUT THE PDF AND THEN SEND IT TO THIS ADDRESS ALONG WITH CASH PAYMENT: 338 ROAD. CLICK OK TO PROCEED.');
-});
-
-</script>
+            <ul>
+            <li><?php echo $header_banner_noun_one[array_rand($header_banner_noun_one)] ?></li>
+            <li><?php echo $header_banner_noun_one[array_rand($header_banner_noun_one)] ?></li>
+            <li><?php echo $header_banner_noun_one[array_rand($header_banner_noun_one)] ?></li>
+            <li><?php echo $header_banner_noun_one[array_rand($header_banner_noun_one)] ?></li>
+            <li><?php echo $header_banner_noun_one[array_rand($header_banner_noun_one)] ?></li>
+            </ul>
+            
           </div><!-- end of cta right container -->
 		
         </div><!-- start of highlight box 1 -->
@@ -202,170 +199,19 @@ $('.quote_area a').click(function(){
     <!-- start of header right -->
     <div id="header_right">
     
-    	<img src="img/software_box.png" width="284" height="418" alt="software box" />
+    	<div class="product_box">
+	    	<p>Our flagship product:</p>
+	    	<h1 class="marketing_logo_first"><?php echo $logo_one_items[array_rand($logo_one_items)]; ?>-PRO</h1>
+  		<h2 class="marketing_logo_second">HOW TO <?php echo $header_banner_verb_one[array_rand($header_banner_verb_one)] ?> <?php echo $header_banner_noun_one[array_rand($header_banner_noun_one)] ?>:</h2>
+  		<div class="dollar_sign">$</div>
+  		<div class="edition"><?php echo $logo_one_items[array_rand($logo_one_items)]; ?> <?php echo $logo_one_items[array_rand($logo_one_items)]; ?> <?php echo $logo_one_items[array_rand($logo_one_items)]; ?> EDITION</div>
+	    	
+    	</div><!-- end of product box -->
         
     </div><!-- end of header right -->
     
   
   </div><!-- end of header area -->
-  
-  
-<!-- *************************************************************************
-***********************  START OF TABBED AREA  *******************************
-************************************************************************** -->
-
-  <!-- start of tabs -->
-  <ul class="tabs">
-    <li><a href="#tab1">Features</a></li>
-    <li><a href="#tab2">Also Features</a></li>
-    <li><a href="#tab3">Benefits</a></li>
-    <li><a href="#tab4">Pepperoni Goon</a></li>
-</ul><!-- end of tabs -->
-
-		<!-- start of tab container -->
-  <div class="tab_container">
-        
-        <!-- ************  START OF TABBED CONTENT AREA 1  ************* -->
-
-    		<!-- start of tab content 1 -->
-            <div id="tab1" class="tab_content">
-            
-    			<!-- start of tab content left -->
-                <div class="tab_left">
-    				<div class="tab_header">It's time to make a simple thing of your living</div>
-        			<p>How can you know the FART advantage? Enter it with phone call. Our large reason for success to you is a specification that you know after this: proven results-driven math, science, and then tremors. Tremors you can count on.</p>
-        			
-                    <!-- start of blockquote -->
-                    <blockquote>I tried the banana slicer and found it unacceptable. As shown in the picture, the slices is curved from left to right. All of my bananas are bent the other way.
-                    <div class="quote_from">Django Reinhardt, CEO of 2013</div>
-                    </blockquote><!-- end of blockquote -->
-        
-    			</div><!-- end of tab content left -->
-    
-    			<!-- start of tab content right -->
-              <div class="tab_right">
-                <img src="img/iphone.jpg" width="327" height="258" alt="iphone" />
-                </div><!-- end of tab content right -->
-    		
-            </div><!-- end of tab content 1 -->
-    
-    	<!-- ************  START OF TABBED CONTENT AREA 2  ************* -->
-        
-        	<!-- start of tab content 2 -->
-<div id="tab2" class="tab_content">
-            
-    			<!-- start of tab content left -->
-                <div class="tab_left">
-    				<div class="tab_header">Amazing Cosmic Assurance from Our Assurance Team</div>
-        			<p>We regularly matrix synergistic vortals while targeting value-added networks. How? Don't be William, it is simple: We reintermediate e-business channels and engage one-to-one e-tailers. It's the sort of bleeding-edge synergies you can expect from FART.</p>
-        			
-                    <!-- start of blockquote -->
-                    <blockquote>Lol what an incredible company.
-If you know me, you know that I love Mexican food of all kinds. Whether it is cheap burritos in west Texas, high end alta cocina, regional dishes found in small Mexican villages, or moles that I make in my own kitchen, I love Mexican food. 
-                    <div class="quote_from">Gym Teacher Person
-	                  </div>
-                    </blockquote><!-- end of blockquote -->
-        
-    			</div><!-- end of tab content left -->
-    
-    			<!-- start of tab content right -->
-                <div class="tab_right">
-                <img src="img/boxes.jpg" width="327" height="258" alt="iphone" />
-                </div><!-- end of tab content right -->
-    		
-            </div><!-- end of tab content 2 -->
-            
-            
-        <!-- ************  START OF TABBED CONTENT AREA 3  ************* -->
-            
-            <!-- start of tab content 3 -->
-<div id="tab3" class="tab_content">
-            
-    			<!-- start of tab content left -->
-                <div class="tab_left">
-    				<div class="tab_header">Sometimes you just need to know who you are.</div>
-        			<p>Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner Boner.</p>
-        			
-                    <ul>
-            			<li>Resets on commanding.</li>
-            			<li>Batteries or not at all batteries.</li>
-            			<li>Gym Culture.</li>
-           		  </ul>
-        
-    			</div><!-- end of tab content left -->
-    
-    			<!-- start of tab content right -->
-                <div class="tab_right">
-                <img src="img/mac_box.jpg" width="327" height="258" alt="iphone" />
-                </div><!-- end of tab content right -->
-    		
-            </div><!-- end of tab content 3 -->
-            
-            
-            <!-- ************  START OF TABBED CONTENT AREA 4  ************* -->
-            
-            <!-- start of tab content 4 -->
-<div id="tab4" class="tab_content">
-            
-    			<!-- start of tab content left -->
-                <div class="tab_left">
-    				<div class="tab_header">You are our partner, and we die together</div>
-        			<p>I like the punch it works well for what i need it for. I use it as a card punch. Sometimes i have trouble with it sticking in the down position but the bottom opens witch works well to get it unstuck.</p>
-                    
-                    <p>The Card Punch is Henry, a basecourt apple-john. Henry hello</p>
-                    
-                    <p><a href="http://www.fart-sounds.net/fart_sound_board.htm" title="Instant Download - Get it today!" class='fade'><img src="img/large_buy_now_button.png" width="271" height="52" alt="buy now" /></a></p>
-        			
-                    
-        
-</div><!-- end of tab content left -->
-    
-    			<!-- start of tab content right -->
-                <div class="tab_right">
-                <img src="img/iphone.jpg" width="327" height="258" alt="iphone" />
-                </div><!-- end of tab content right -->
-    		
-            </div><!-- end of tab content 4 -->
-            
-            
-  </div><!-- end of tab container -->
-    
-    
-    
-    <!-- start of full width container -->
-  <div class="full_width">
-    
-    	<img src="img/small_quote.png" width="71" height="42" alt="quotes" />
-    	<span class="quote_header">See what our customers are audio from mouth</span>
-    
-    
-    		<!-- start of quote area container -->
-	<div class="quote_area">
-    
-    			<!-- start of ticker container -->
-    			<div class="ticker">
-    
-    				<!-- start of news -->
-					<div id="news_div">
-      
-      					<ul>
-							<li>Ayo please this shit the real deal apple-scrapple. You ain't seen no shit hit a (expletive) anus from like two countries away fo real it serious lay down that bread son</li>
-						<li>I concur this an absolutely delightful corporate service offered by our friends at FART. There are two things I love in life and (edited for content).</li>
-                    	<li>Ok where do I write the testimonial?</li>
-                    	<li>Picard and Vosh, to me, was just never believable.</li>
-                    	<li>A part of me died after I watched 'All Good Things'. I knew it would never be new again. But I didn't count on the horribly deteriorating memory of humans as they age. Good stuff.</li>		
-					</ul>
-       
-            
-        			</div><!-- start of news -->
-        
-        	</div><!-- end of ticker container -->
-        
-      </div><!-- end of quote area container -->
-        
-    <a href="http://kidshealth.org/kid/talk/yucky/fart.html" title="Instant Download - Get it today!" class='fade'><img src="img/large_buy_now_button.png" width="271" height="52" alt="buy now" /></a>
-    
-    </div><!-- end of full width container -->
 
 </div><!-- end of page wrapper -->
 
