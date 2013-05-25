@@ -9,7 +9,7 @@ $bs_number_one = Array('thousands','millions','billions','trillions','quadrillio
 
 $bs_number_two = Array('second','hour','day','week','month');
 
-$header_banner_year = rand(00, 99);;
+$header_banner_year = rand(10, 99);;
 
 
 $header_banner_verb_one = Array("implement", "utilize", "integrate", "streamline", "optimize", "evolve", "transform", "embrace", 
