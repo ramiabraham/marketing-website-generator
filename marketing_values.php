@@ -1,5 +1,3 @@
-// Not much going on here, just the dack.com arrays with a few more terms from me thrown in.
-
 <?php $logo_one_items = Array('HYPER','COMPU','MEGA','DATA','WEB','WEB2','FACE','FOCUS','PERFORMA','ACCU','DOUBLE','LIKE','SHARE','WIDGET','TOUCH','APP','BESTY','VIRAL','MARKET','ULTRA','GLOBAL','SELL','MAXI','NET','SUPER','CLICK','WEB','SOCIAL','BUILD','BOOST','HERO','INTRA','RAD');
 
 $logo_two_items = Array('COMM','LEADS','BLAST','APP','SURGE','SUITE','NINJAS','LOLZ','PERFORMER','BOOSTER','MASTER','MAX','GRIP','GLEAM','BOOM','SQUEEZE','NUT','BEACON','GRAM','LOVE','DEMON','ANGEL','GLOBAL','GENIUS','SOCIAL','BOOST','NET','COM','ZAZZ','POP','SWELL','BEAST','FLOW','MONEYS','BONE');  
