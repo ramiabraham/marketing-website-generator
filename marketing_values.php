@@ -12,7 +12,7 @@ $global_leader_in = Array('ROI','Web-Alytics','market-driven cross-synergy','soc
 $bs_number_one = Array('lots','a crap-ton','hundreds','a whole bunch','thousands','millions','billions','trillions','quadrillions','bajillions');
 
 
-$bs_number_two = Array('femto-second','nano-second','milli-second','second','hour','day','week','month','cmapaign','business day','fiscal year','quarter');
+$bs_number_two = Array('femto-second','nano-second','milli-second','second','hour','day','week','month','campaign','business day','fiscal year','quarter');
 
 $header_banner_year = rand(10, 99);;
 
