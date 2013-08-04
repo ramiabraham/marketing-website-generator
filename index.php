@@ -161,7 +161,7 @@
 	    	
     	</div><!-- end of product box -->
         
-        <div class="cta_button embossed-link">Sign Me Up!</div>
+        <div class="cta_button embossed-link"><a href="https://github.com/ramiabraham/Buzzword-Generator-Shortcode">WP Version</a></div>
         
     </div><!-- end of header right -->
     
